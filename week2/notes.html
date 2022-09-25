@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 2 Notes</title>
+    
+</head>
+<header>
+    <h1>All About Functions</h1>
+</header>
+<body>
+    <h2>How do you define a function?</h2>
+    <p>There are multiple ways to define a function:</p>
+    <ol>
+        <li>function declarations: 
+            function hello(){console.log('Hello World!')}
+        </li>
+        <li>anonymous functions:
+            function(){ console.log('Goodbye World!')}
+        </li>
+        <li>function literal:
+            const goodbye = function(){ console.log('Goodbye World!'); };
+        </li>
+        <li>function expressions:
+            const goodbye = function bye(){ console.log('Goodbye World!'); };
+        </li>
+        <li>
+            Function() constructor:
+            const hi = new Function('console.log("Hi World!");'); ( This way is NOT recommended)
+        </li>
+    </ol>
+    <h2>What's an arrow function?</h2>
+    <p>Succinct anonymous functions. The parameter comes before the =>. Examples: </p>
+    <ol>
+        <li>const square = x => x*x;</li>
+        <li>const add = (x,y) => x + y;</li>
+        <li>No parameters is: const hello = () => alert('Hello World!');</li>
+    </ol>
+    
+
+</body>
+</html>
